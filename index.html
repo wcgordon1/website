@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Will Gordon Website</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"><img src="images/DOGG.jpeg" alt="dog logo"></a></h1>
+      </header>
+    
+        <nav>
+            <ul>
+                <li><b><a href="index.html">home</a></b></li>
+                <li><b><a href="about.html">about</a></b></li>
+                <li><b><a href="index.html#projects">projects</a></b></li>
+                <li><b><a href="index.html#contact">contact</a></b></li>
+                
+            </ul>
+            <hr class="shadow">
+        </nav>
+        <div class="header">
+        <h1 class="fade-in delay1">Hi, I'm Will!</h1>
+        <p class="fade-in delay2">I am an aspiring web developer</p>
+        <p class="small">This site is built mobile first
+            <br>
+            <br>
+            I used CSS Flexbox & Media Query
+            <br>
+            The site will change as you adjust your screen size
+            <br>
+        </p>
+    </div>
+    
+
+    <section class="parallax">
+        <ul>
+            <li data-aos="fade-right" data-aos-delay="0" data-aos-duration="800">Freelance Web Development</li>
+            <br>
+            <li data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">No Code/Low Code App Development</li>
+            <br>
+            <li data-aos="fade-right" data-aos-delay="200" data-aos-duration="800">Go-to-market-strategy</li>
+            <br>
+            <li data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">coffee</li>
+        </ul>
+    </section>
+
+    
+    <div class="row">
+        <div class="column">
+          <img src="images/cow.jpg" alt="Cow" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/dog.jpg" alt="Dog" style="width:100%">
+        </div>
+      </div>
+    
+    <section>
+        <a id="projects">
+        <h3 class="recent-work-title"><a href="quotes/quotes.html">Link to Project</a></h3>
+        <hr>
+        <div class="recent-work">
+            <div class="recent-work-info move-right">
+                <h4 data-aos="slide-left" data-aos-duration="1000">Quote Generator</h4>
+                <div data-aos="fade-in" data-aos-duration="1500">
+                <p>HTML, CSS, & JavaScript</p>
+                <hr>
+                <p><b>Features</b></p>
+                <ul class="features">
+                    <li>Random Quote API</li>
+                    <li>Post quote directly to Twitter</li>
+                    <li>Responsive on all screen sizes</li>
+                </ul>
+                <hr>
+            </div>
+            </div>
+            <div class="recent-work-image">
+            <img src="images/quotes.jpeg" alt="Quote Generator Screen Shot">
+        </div>
+        </div>
+        <h3 class="recent-work-title"><a href="http://net.saddleback.edu/wgordon1/cimw100a/fishcreek6/index.html">Link to Project</a></h3>
+        <hr>
+
+        <div class="recent-work">
+            <div class="recent-work-info">
+            <h4 data-aos="slide-right" data-aos-duration="1000">School Project - Fish Creek Animal Clinic</h4>
+            <div data-aos="fade-in" data-aos-duration="1500">
+            <p>HTML & CSS</p>
+            <hr>
+            <p><b>Features</b></p>
+            <ul class="features">
+                <li>It works</li>
+                <li>CSS Grid Layout</li>
+                <li>*Not Flexbox</li>
+            </ul>
+            <hr>
+            </div>
+        </div>
+            <div class="recent-work-image">
+            <img src="images/fishcreek.jpeg" alt="Fish Creek Animal Clinic website screenshot">
+        </div>
+            </div>
+            <h3 class="recent-work-title"><a href="number-game/index.html">Link to Project</a></h3>
+        <hr>
+        <div class="recent-work">
+            <div class="recent-work-info move-right">
+                <h4 data-aos="slide-left" data-aos-duration="1000">Number Game</h4>
+                <div data-aos="fade-in" data-aos-duration="1500">
+                <p>HTML, CSS, & JavaScript</p>
+                <hr>
+                <p><b>Features</b></p>
+                <ul class="features">
+                    <li>Play a game!</li>
+                    <li>Easy and Hard Modes</li>
+                    <li>Pretty fun!</li>
+                </ul>
+                <hr>
+            </div>
+            </div>
+            <div class="recent-work-image">
+            <img src="images/number.jpeg" alt="Number Game screenshot">
+        </div>
+        </div>
+    </a>
+    </section>
+
+    <section id="contact">
+        <div class="contact-info">
+            <p class="contact-heading">Don't be a <br>stranger</p>
+            <p class="contact-text">Need a developer? Let's talk!</p>
+            <a class="contact-text" href="mailto:wcgordon1@gmail.com">Send me an email</a>
+        </div>
+        <h3 class="rotate">Contact</h3>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

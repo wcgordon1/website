@@ -13,23 +13,26 @@
 <body>
     <div class="hero">
         <form action="">
-            <div class="input-group">
-                <input type="text" id="name" required>
-                <label for="name">Your name</label>
+            <div class="row">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name"><i class="far fa-user"></i> Your name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="number" required>
+                    <label for="number"><i class="fas fa-phone-alt"></i> Phone</label>
+                </div>
             </div>
-            <div class="input-group">
-                <input type="text" id="number" required>
-                <label for="number">Phone</label>
-            </div>
+
             <div class="input-group">
                 <input type="email" id="email" required>
-                <label for="email">Email ID</label>
+                <label for="email"><i class="far fa-envelope"></i> Email</label>
             </div>
             <div class="input-group">
-                <textarea name="" id="message" cols="30" rows="8"></textarea>
-                <label for="message">Your Message</label>
+                <textarea name="" id="message" cols="30" rows="8" required></textarea>
+                <label for="message"><i class="far fa-comment-dots"></i> Your Message</label>
             </div>
-            <button type="submit">SUBMIT</button>
+            <button type="submit">SUBMIT <i class="fas fa-paper-plane"></i></button>
         </form>
     </div>
 

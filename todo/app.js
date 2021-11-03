@@ -1,4 +1,5 @@
 document.querySelector('form').addEventListener('submit', handleSubmitForm);
+document.querySelector('ul').addEventListener('click', handleClickDeleteOrCheck);
 
 function handleSubmitForm(e) {
     e.preventDefault();
@@ -6,6 +7,14 @@ function handleSubmitForm(e) {
     if (input.value != '')
         addTodo(input.value);
     input.value = '';
+}
+
+function handleClickDeleteOrCheck(e) {
+    if (e.target.name == 'checkButton')
+        checkTodo(e);
+
+    if (e.target.name == 'deleteButton')
+        deleteTodo(e);
 }
 
 function addTodo(todo) {
@@ -19,4 +28,17 @@ function addTodo(todo) {
     `;
     li.classList.add('todo-list-item');
     ul.appendChild(li);
+}
+
+function checkTodo(e) {
+    let item = e.target.parentNode;
+    if (item.style.textDecoration == 'line-through')
+        item.style.textDecoration = 'none';
+    else
+        item.style.textDecoration = 'line-through';
+}
+
+function deleteTodo(e) {
+    let item = e.target.parentNode;
+    item.remove();
 }

@@ -85,6 +85,10 @@ li {
     color: #595959;
 }
 
+i {
+    pointer-events: none;
+}
+
 .todo-item {
     flex-grow: 1;
 }

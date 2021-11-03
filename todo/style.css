@@ -1,0 +1,98 @@
+html {
+    height: 100vh;
+    min-width: 600px;
+    background-image: linear-gradient(130deg, #FFFFFF, #1C3f80);
+}
+
+.logo {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+img {
+    border: solid 5px #1C3f80;
+    border-radius: 50%;
+    height: 150px;
+    box-shadow: 50px -10px #1C3f80;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+
+input[type="text"] {
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #595959;
+    flex-grow: 1;
+}
+
+button {
+    font-size: 2rem;
+    background-color: white;
+    color: #1C3f80;
+    outline: 0;
+    border: none;
+}
+
+button:hover {
+    color: darkblue;
+    cursor: pointer;
+}
+
+.todoList {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px, 25px;
+    height: 100%;
+}
+
+ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0;
+    font-size: 1rem;
+    color: #595959;
+}
+
+.clearAll {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.clearAll:hover {
+    color: darkblue;
+}

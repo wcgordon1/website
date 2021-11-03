@@ -11,6 +11,8 @@ html {
     max-width: 500px;
     padding: 1.5rem;
     align-items: center;
+    color: white;
+    text-shadow: 2px 3px #1C3f80;
 }
 
 img {
@@ -103,4 +105,13 @@ i {
 
 .clearAll:hover {
     color: darkblue;
+}
+
+.todo-list-item {
+    transition: 0.5s ease-out;
+}
+
+.todo-list-item-fall {
+    transform: translateY(12rem) rotateZ(10deg);
+    opacity: 0;
 }

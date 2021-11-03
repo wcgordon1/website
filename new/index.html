@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issue Tracker!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>JS IssueTracker <small>by Will Gordon</small></h1>
+        <div class="jumbotron">
+            <h3>Add New Issue:</h3>
+            <form id="issueInputForm">
+                <div class="form-group">
+                    <label for="issueDescInput">Description</label>
+                    <input type="text" class="form-control" id="issueDescInput" placeholder="Describe the issue...">
+                </div>
+                <div class="form-group">
+                    <label for="issueSeverityInput">Severity</label>
+                    <select id="issueSeverityInput">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="issueAssignedToInput">Assigned To</label>
+                    <input type="text" class="form-control" id="issueAssignedToInput"
+                        placeholder="Enter responsible...">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://chancejs.com/chance.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
